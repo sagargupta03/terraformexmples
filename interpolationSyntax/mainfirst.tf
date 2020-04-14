@@ -1,6 +1,6 @@
 # Download the latest Ghost image
 resource "docker_image" "my_image2" {
-  name = "ghost:latest"
+  name = "ghost:alpine"
 }
 
 # Start the Container
